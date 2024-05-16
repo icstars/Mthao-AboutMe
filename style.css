@@ -1,0 +1,10 @@
+img {
+  width: 500px;
+}
+
+body {
+  background-image: url(https://th.bing.com/th/id/R.5af48f02027e785042d151d14fc0111b?rik=%2bw3HcCBP2Elv3w&riu=http%3a%2f%2fs8.favim.com%2forig%2f150919%2fanime-gif-anime-scenery-cherry-blossoms-drrr-Favim.com-3320479.gif&ehk=ZjK5Mz6TLKbV7OH5BvxRy0iD91cx1A4uiNuVtmOnuZA%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
