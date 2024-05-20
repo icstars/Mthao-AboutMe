@@ -21,3 +21,23 @@ a {
   font-weight: 500;
   font-style: normal;
 }
+
+.bar {
+  position: absolute;
+  border: 1px solid navy;
+  height: 20px;
+  width: 400px;
+  background-color: black;
+}
+.bar:hover {
+  background-color: peachpuff;
+  border: 2px solid black;
+  color: black;
+}
+
+a:hover {
+  height: 15px;
+  width: 400px;
+  background-color: slategray;
+  transition: 1s;
+}
