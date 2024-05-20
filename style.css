@@ -8,3 +8,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.more {
+  background-color: aqua;
+}
+
+.a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
+}
