@@ -41,3 +41,81 @@ a:hover {
   background-color: slategray;
   transition: 1s;
 }
+
+.Slider
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.Slider div
+{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    background-color: white;
+    opacity: 30%;
+}
+
+.Slider:nth-child(1)
+{
+    animation: Slidein 1s;
+}
+
+.Slider:nth-child(2)
+{
+    animation: Slidein 2s;
+}
+
+.Slider:nth-child(3)
+{
+    animation: Slidein 3s;
+}
+
+@keyframes Slidein 
+{
+    from 
+    {
+        transform: translateX(-500px);
+    }  
+    to
+    {
+        transform: translateX(0px);
+    }  
+}
+
+.carousel
+{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    animation: ChangeImage 5s forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ChangeImage 
+{
+    0%
+    {
+        background-image: url("https://i.pinimg.com/originals/47/05/4c/47054c22c066500c700a2a9424b19fab.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+    50%
+    {
+        background-image: url("https://m.media-amazon.com/images/M/MV5BOGQ2MjNkYzMtZDY3Zi00YWFiLWIyZTgtMzNiOWRhMDgyZjVmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    100%
+    {
+        background-image: url("https://theawesomedaily.com/wp-content/uploads/2018/07/funny-anime-memes-9-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
