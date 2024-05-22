@@ -93,7 +93,7 @@ a:hover {
     width: 500px;
     height: 500px;
     border: 1px solid black;
-    animation: ChangeImage 5s forwards;
+    animation: ChangeImage 8s forwards;
     animation-iteration-count: infinite;
 }
 
