@@ -42,6 +42,15 @@ a:hover {
   transition: 1s;
 }
 
+.Header
+{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
 .Slider
 {
     width: 300px;
@@ -107,15 +116,14 @@ a:hover {
     }    
     50%
     {
-        background-image: url("https://m.media-amazon.com/images/M/MV5BOGQ2MjNkYzMtZDY3Zi00YWFiLWIyZTgtMzNiOWRhMDgyZjVmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg");
+        background-image: url("https://preview.redd.it/1t3sg4es4epa1.jpg?auto=webp&v=enabled&s=c662c2030f858e8caeb27b818c6891261aa0fbff");
         background-repeat: no-repeat;
         background-size: cover;  
     }
     100%
     {
-        background-image: url("https://theawesomedaily.com/wp-content/uploads/2018/07/funny-anime-memes-9-1.jpg");
+        background-image: url("https://newfastuff.com/wp-content/uploads/2020/04/xoofqcuy36s41-150x150.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
     }
 }
