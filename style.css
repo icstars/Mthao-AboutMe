@@ -77,12 +77,12 @@ a:hover {
 
 .Slider:nth-child(2)
 {
-    animation: Slidein 2s;
+    animation: Slidein 3s;
 }
 
 .Slider:nth-child(3)
 {
-    animation: Slidein 3s;
+    animation: Slidein 5s;
 }
 
 @keyframes Slidein 
@@ -119,6 +119,12 @@ a:hover {
         background-image: url("https://preview.redd.it/1t3sg4es4epa1.jpg?auto=webp&v=enabled&s=c662c2030f858e8caeb27b818c6891261aa0fbff");
         background-repeat: no-repeat;
         background-size: cover;  
+    }
+    25%
+    {
+      background-image: url("https://th.bing.com/th/id/OIP.S2JTncm93g_o8E74Q8S7lwAAAA?rs=1&pid=ImgDetMain");
+      background-repeat: no-repeat;
+      background-size: cover;  
     }
     100%
     {
