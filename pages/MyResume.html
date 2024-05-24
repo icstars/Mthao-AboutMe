@@ -7,6 +7,50 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <style>
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+  
+
+    nav a {
+        display: inline-flex;
+      color: white;
+      text-align: center;
+      padding: 1px 1px;
+      text-decoration: none;
+    }
+
+    /* Keyframes animation */
+    @keyframes slideRight {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 600px) {
+      nav ul {
+        width: 10px; /* Adjust width as needed */
+        top: 0;
+        height: 10%;
+        flex-direction:column; /* Make it vertical */
+      }
+      ul {
+        right: 100%;
+      }
+
+    }
     body {
       background-color: aquamarine;
     }
