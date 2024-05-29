@@ -99,8 +99,8 @@ a:hover {
 
 .carousel
 {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
     animation: ChangeImage 8s forwards;
     animation-iteration-count: infinite;
