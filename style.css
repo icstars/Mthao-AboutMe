@@ -101,9 +101,37 @@ a:hover {
 {
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    border: 1px solid rgb(155, 71, 71);
     animation: ChangeImage 8s forwards;
     animation-iteration-count: infinite;
+}
+
+.Carousel2
+{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.slider2 
+{
+  height: 300px;
+  width: 900px;
+  display: flex;
+  /* transform: translateX(300px); */
+  transition: 1s ease;
+}
+
+.slide
+{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.img3
+{
+  height: 300px;
+  width: 300px;
 }
 
 @keyframes ChangeImage 
