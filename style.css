@@ -183,3 +183,19 @@ a:hover {
    height: 300px;
  }
 }
+
+.content{
+  /* display:grid; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100, auto);
+  height: 100vh; 
+}
+.grid-item {
+  border: 1px solid black;
+  border-radius: 1px;
+  overflow: hidden;
+}
+ 
+.grid-item:hover {
+  transform: scale(1.05);
+}

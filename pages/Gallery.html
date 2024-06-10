@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+nav a {
+    display: inline-flex;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+
+/* Keyframes animation */
+@keyframes slideRight {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  nav ul {
+    width: 10px; /* Adjust width as needed */
+    top: 0;
+    height: 10%;
+    flex-direction:column; /* Make it vertical */
+  }
+  ul {
+    right: 100%;
+  }
+  nav {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    position: absolute;
+    z-index:unset;
+  }
+}
+body {
+  background-color: gainsboro;
+}
+
+</style>
+<body class="More">
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./MoreAboutMe.html">More about me</a>
+      <a href="./MyResume.html">My Resume</a>
+      <a href="./Projects.html">Projects</a>
+      <a href="./Gallery.html">Gallery</a>
+    </nav>
+  </body>
+<body>
+    <div class="grid-container">
+        <!-- <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="blue"></div> -->
+        <!-- <nav>
+            <div>
+                <a>test</a>
+                <a>test</a>
+                <a>test</a>
+            </div>
+        </nav>
+         -->
+        <!-- <header></header> -->
+        
+        <div class="content">
+            <img class="grid-item" src="https://media1.tenor.com/m/mqP2x-Wnh6QAAAAC/dr-stone-suika.gif">
+            <img class="grid-item" src="https://64.media.tumblr.com/9c465c43c5c398239de42e69ebfaad17/tumblr_ovkoezahNV1rpdptuo1_500.gif">
+            <img class="grid-item" src="https://th.bing.com/th/id/R.895d365eb871116834a63bb0ac0bec95?rik=gsLdkxDtgS7tPQ&pid=ImgRaw&r=0">
+            <img class="grid-item" src="https://i.pinimg.com/originals/1a/1e/94/1a1e94e05843bfdba04db2bfee6b8597.gif">
+            <img class="grid-item" src="https://68.media.tumblr.com/627ebbd8b6cd0f794e3df4e4a4acd344/tumblr_nsk81cpKVC1si1wuco1_500.gif">
+            <img class="grid-item" src="https://i1.wp.com/c.tenor.com/TmWfHuCsGU0AAAAM/jdmumar.gif">
+            <img class="grid-item" src="https://th.bing.com/th/id/R.3085cebbd2f2eb03942b2b94a6b74a58?rik=c1ixiHnQPBZ%2bXw&pid=ImgRaw&r=0">
+            <img class="grid-item" src="https://th.bing.com/th/id/R.114224e086a6fcfafc12015ff72abd90?rik=osGWIQ3Gv3kvhw&pid=ImgRaw&r=0">
+        </div>
+        
+        <footer></footer>
+
+    </div>
+</body>
+</html>
